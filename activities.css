@@ -1,0 +1,163 @@
+main {
+    animation-name: fade-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateY(50px);
+}
+
+header .heading {
+    animation-name: fade-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateY(50px);
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 1;
+        transform: translateY(50px) scaleX(0.8) scaleY(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scaleX(1) scaleY(1);
+    }
+}
+
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+}
+
+/* --------------------------------------------------- */
+
+header {
+    height: 250px;
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    background-position: 0%;
+    color: #fff;
+    padding: 20px 20px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .heading {
+    text-align: center;
+}
+
+header .heading h1 {
+    font-family: "Oswald";
+    font-size: 72px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: solid 7px #f06449;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+
+header nav ul li a {
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+header nav ul li a.active,
+header nav ul li a:visited {
+    border-bottom: 2px solid white;
+}
+
+/* --------------------------------------------------- */
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main img {
+    border-radius: 10px;
+}
+
+#activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#activities h2 {
+    width: 550px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#activities .description {
+    width: 600px;
+}
+
+#activities .description a {
+    color: #1a1a1a;
+}
+
+#activities .description ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    padding: 25px;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+/* --------------------------------------------------- */
+
+footer {
+    height: 100px;
+    background-color: #f4f4f4;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer nav li {
+    margin: 0 15px;
+}
