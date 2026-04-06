@@ -21,3 +21,4 @@ My personal portfolio website.
 npm install
 npm run dev
 ```
+
