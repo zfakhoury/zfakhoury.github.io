@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "background": "Background",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Zouhair Fakhoury",
+    "title": "Technical Cofounder & iOS Developer",
+    "subtitle": "Engineering Student at INSA Rouen-Normandie",
+    "cta": "See what I build",
+    "contact": "Get in touch"
+  },
+  "about": {
+    "title": "About Me",
+    "tagline": "I build native iOS apps, tinker with data and statistics, and teach robots to solve mazes.",
+    "blurbs": [
+      "Technical Cofounder of Just Pray — a production iOS app on the App Store, built with SwiftUI in a team of 4.",
+      "3rd-year Computer Systems & AI student at INSA Rouen-Normandie, with hands-on experience in Python, embedded systems, and machine learning.",
+      "Multilingual — I speak English, French, Arabic, Spanish, and German."
+    ]
+  },
+  "skills": {
+    "title": "What I Work With",
+    "categories": {
+      "languages": "Languages & Tools",
+      "frameworks": "Frameworks & Libraries",
+      "domains": "Domains I Explore"
+    },
+    "items": {
+      "languages": ["Python", "Swift", "LaTeX", "GitHub"],
+      "frameworks": ["SwiftUI", "NumPy", "SciPy", "Matplotlib", "FFT"],
+      "domains": ["iOS Development", "Machine Learning", "AI Agents", "Data Analysis", "Raspberry Pi", "Embedded Systems", "Discord Bot Development"]
+    }
+  },
+  "projects": {
+    "title": "Things I've Built",
+    "featured": {
+      "label": "Featured",
+      "name": "Just Pray — Muslim Prayer Habit Tracker",
+      "description": "A production iOS app live on the App Store that helps Muslims build consistent prayer habits through tracking, reminders, and streaks. As Technical Cofounder, I architect and develop the entire frontend in SwiftUI, leveraging Apple's native APIs — Widgets, Live Activities, Screen Time, and Alarms — to deliver a deeply integrated iOS experience. Built in a team of 4, iterating on user feedback.",
+      "tags": ["SwiftUI", "iOS", "App Store", "Widgets", "Live Activities", "Screen Time", "Alarms", "Production"],
+      "links": [
+        { "label": "Website", "href": "https://justprayapp.xyz" },
+        { "label": "App Store", "href": "https://apps.apple.com/app/just-pray-muslim-prayer-habit/id6747154163" }
+      ]
+    },
+    "items": [
+      {
+        "name": "Auto-Decomposer",
+        "description": "Breaks down audio into recognizable patterns using FFT frequency analysis, then reproduces them with spectral similarity scoring.",
+        "tags": ["Python", "NumPy", "SciPy", "FFT"]
+      },
+      {
+        "name": "Robot-Car",
+        "description": "An autonomous maze-solving robot running on Raspberry Pi with multi-sensor integration and servo motor control.",
+        "tags": ["Raspberry Pi", "Python", "Sensors"]
+      },
+      {
+        "name": "MecSimCalc 2.0 — Grand Prize",
+        "description": "Won first place with a Quadratic Equations Solver at MecSimCalc's international hackathon.",
+        "tags": ["Python", "Hackathon", "1st Place"],
+        "link": "https://docs.mecsimcalc.com/blog/Comp010082022-Winners"
+      }
+    ]
+  },
+  "background": {
+    "title": "Background",
+    "timeline": [
+      {
+        "label": "Technical Cofounder",
+        "place": "Just Pray App",
+        "date": "Sep 2025 – Present",
+        "type": "work"
+      },
+      {
+        "label": "Auto-Decomposer & Robot-Car Projects",
+        "place": "INSA Rouen-Normandie",
+        "date": "Nov – Dec 2025",
+        "type": "project"
+      },
+      {
+        "label": "iOS Development Bootcamp",
+        "place": "DL Academy",
+        "date": "Aug – Nov 2024",
+        "type": "education"
+      },
+      {
+        "label": "Computer Systems & AI Engineering",
+        "place": "INSA Rouen-Normandie",
+        "date": "Sep 2023 – Present",
+        "type": "education"
+      },
+      {
+        "label": "French Baccalauréat",
+        "place": "Lycée Français International d'Al-Khobar",
+        "date": "2022 – 2023",
+        "type": "education"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages I Speak",
+    "items": [
+      { "name": "Arabic", "level": "Native", "percent": 100 },
+      { "name": "English", "level": "C1", "percent": 85 },
+      { "name": "French", "level": "C1", "percent": 85 },
+      { "name": "Spanish", "level": "B2", "percent": 70 },
+      { "name": "German", "level": "A2", "percent": 30 }
+    ]
+  },
+  "interests": {
+    "title": "Beyond Code",
+    "items": [
+      {
+        "name": "Language Learning",
+        "description": "Currently grinding Spanish and German"
+      },
+      {
+        "name": "Video Editing",
+        "description": "Cinematic long and short form"
+      },
+      {
+        "name": "Side Projects",
+        "description": "Always building something new"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "description": "Open to collaborations, side projects, and interesting conversations. Don't hesitate to reach out!",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with Next.js & Tailwind CSS"
+  }
+}

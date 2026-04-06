@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --color-bg: #fafbfc;
+  --color-bg-secondary: #f0f2f5;
+  --color-bg-card: #ffffff;
+  --color-text: #1a1a2e;
+  --color-text-secondary: #4a4a6a;
+  --color-text-muted: #8888a0;
+  --color-accent: #00d4aa;
+  --color-accent-light: #00e4bb;
+  --color-accent-bg: #e6faf5;
+  --color-border: #dde1e8;
+  --color-border-light: #eef0f4;
+  --color-accent-secondary: #7c5cfc;
+}
+
+.dark {
+  --color-bg: #0a0e17;
+  --color-bg-secondary: #0f1520;
+  --color-bg-card: #141c2b;
+  --color-text: #e8ecf1;
+  --color-text-secondary: #a0aab8;
+  --color-text-muted: #5a6a7a;
+  --color-accent: #00d4aa;
+  --color-accent-light: #33e8c0;
+  --color-accent-bg: #0d2a23;
+  --color-border: #1e2a3a;
+  --color-border-light: #172030;
+  --color-accent-secondary: #9d7fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dot grid background pattern */
+.dot-grid {
+  background-image: radial-gradient(circle, var(--color-border) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: #0a0e17;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-light);
+}

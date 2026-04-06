@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "background": "Parcours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Zouhair Fakhoury",
+    "title": "Cofondateur Technique & Développeur iOS",
+    "subtitle": "Étudiant Ingénieur à l'INSA Rouen-Normandie",
+    "cta": "Voir mes projets",
+    "contact": "Me contacter"
+  },
+  "about": {
+    "title": "À propos",
+    "tagline": "Je développe des apps iOS natives, j'explore les données et les statistiques, et j'apprends aux robots à résoudre des labyrinthes.",
+    "blurbs": [
+      "Cofondateur Technique de Just Pray — une application iOS en production sur l'App Store, développée avec SwiftUI en équipe de 4.",
+      "Étudiant en 3ème année en Systèmes Informatiques & IA à l'INSA Rouen-Normandie, avec une expérience pratique en Python, systèmes embarqués et machine learning.",
+      "Multilingue — je parle anglais, français, arabe, espagnol et allemand."
+    ]
+  },
+  "skills": {
+    "title": "Mes outils",
+    "categories": {
+      "languages": "Langages & Outils",
+      "frameworks": "Frameworks & Bibliothèques",
+      "domains": "Domaines que j'explore"
+    },
+    "items": {
+      "languages": ["Python", "Swift", "LaTeX", "GitHub"],
+      "frameworks": ["SwiftUI", "NumPy", "SciPy", "Matplotlib", "FFT"],
+      "domains": ["Développement iOS", "Machine Learning", "Agents IA", "Analyse de données", "Raspberry Pi", "Systèmes embarqués", "Développement de bots Discord"]
+    }
+  },
+  "projects": {
+    "title": "Ce que j'ai construit",
+    "featured": {
+      "label": "À la une",
+      "name": "Just Pray — Suivi d'habitudes de prière musulmane",
+      "description": "Une application iOS en production sur l'App Store qui aide les musulmans à construire des habitudes de prière régulières grâce au suivi, aux rappels et aux séries. En tant que Cofondateur Technique, j'architecte et développe l'intégralité du frontend en SwiftUI, en exploitant les APIs natives d'Apple — Widgets, Live Activities, Screen Time et Alarmes — pour offrir une expérience iOS profondément intégrée. Développée en équipe de 4, avec itérations sur les retours utilisateurs.",
+      "tags": ["SwiftUI", "iOS", "App Store", "Widgets", "Live Activities", "Screen Time", "Alarmes", "Production"],
+      "links": [
+        { "label": "Site web", "href": "https://justprayapp.xyz" },
+        { "label": "App Store", "href": "https://apps.apple.com/app/just-pray-muslim-prayer-habit/id6747154163" }
+      ]
+    },
+    "items": [
+      {
+        "name": "Auto-Decomposer",
+        "description": "Décompose l'audio en motifs reconnaissables par analyse fréquentielle FFT, puis les reproduit avec un scoring de similarité spectrale.",
+        "tags": ["Python", "NumPy", "SciPy", "FFT"]
+      },
+      {
+        "name": "Voiture-Robot",
+        "description": "Un robot autonome de résolution de labyrinthes sur Raspberry Pi avec intégration multi-capteurs et contrôle de servomoteurs.",
+        "tags": ["Raspberry Pi", "Python", "Capteurs"]
+      },
+      {
+        "name": "MecSimCalc 2.0 — Grand Prix",
+        "description": "Premier prix avec un solveur d'équations du second degré au hackathon international MecSimCalc.",
+        "tags": ["Python", "Hackathon", "1ère Place"],
+        "link": "https://docs.mecsimcalc.com/blog/Comp010082022-Winners"
+      }
+    ]
+  },
+  "background": {
+    "title": "Parcours",
+    "timeline": [
+      {
+        "label": "Cofondateur Technique",
+        "place": "Just Pray App",
+        "date": "Sep 2025 – Présent",
+        "type": "work"
+      },
+      {
+        "label": "Projets Auto-Decomposer & Voiture-Robot",
+        "place": "INSA Rouen-Normandie",
+        "date": "Nov – Déc 2025",
+        "type": "project"
+      },
+      {
+        "label": "Bootcamp Développement iOS",
+        "place": "DL Academy",
+        "date": "Août – Nov 2024",
+        "type": "education"
+      },
+      {
+        "label": "Systèmes Informatiques & IA",
+        "place": "INSA Rouen-Normandie",
+        "date": "Sep 2023 – Présent",
+        "type": "education"
+      },
+      {
+        "label": "Baccalauréat français",
+        "place": "Lycée Français International d'Al-Khobar",
+        "date": "2022 – 2023",
+        "type": "education"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Langues parlées",
+    "items": [
+      { "name": "Arabe", "level": "Natif", "percent": 100 },
+      { "name": "Anglais", "level": "C1", "percent": 85 },
+      { "name": "Français", "level": "C1", "percent": 85 },
+      { "name": "Espagnol", "level": "B2", "percent": 70 },
+      { "name": "Allemand", "level": "A2", "percent": 30 }
+    ]
+  },
+  "interests": {
+    "title": "Au-delà du code",
+    "items": [
+      {
+        "name": "Apprentissage des langues",
+        "description": "Actuellement l'espagnol et l'allemand"
+      },
+      {
+        "name": "Montage vidéo",
+        "description": "Format court et long cinématographique"
+      },
+      {
+        "name": "Projets personnels",
+        "description": "Toujours en train de construire quelque chose"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Connectons-nous",
+    "description": "Ouvert aux collaborations, projets personnels et conversations intéressantes. N'hésitez pas !",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "built": "Développé avec Next.js & Tailwind CSS"
+  }
+}
